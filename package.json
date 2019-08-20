@@ -1,11 +1,41 @@
 {
-  "name": "react-native-push-notification",
-  "version": "3.0.2",
-  "description": "React Native Local and Remote Notifications",
-  "main": "index",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "_args": [
+    [
+      "react-native-push-notification@3.0.2",
+      "/Users/jackyu/workspace/zcunsoft/kuang"
+    ]
+  ],
+  "_from": "react-native-push-notification@3.0.2",
+  "_id": "react-native-push-notification@3.0.2",
+  "_inBundle": false,
+  "_integrity": "sha512-enBzytbmBi4keOSPH6eofcXC2/z0GivJAbYpJmT6SdM964WbRAZV3mW6ouX/WhcqcI9dD8IEAu1edZuPzZkxCw==",
+  "_location": "/react-native-push-notification",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "react-native-push-notification@3.0.2",
+    "name": "react-native-push-notification",
+    "escapedName": "react-native-push-notification",
+    "rawSpec": "3.0.2",
+    "saveSpec": null,
+    "fetchSpec": "3.0.2"
   },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/react-native-push-notification/-/react-native-push-notification-3.0.2.tgz",
+  "_spec": "3.0.2",
+  "_where": "/Users/jackyu/workspace/zcunsoft/kuang",
+  "author": {
+    "name": "zo0r",
+    "email": "http://zo0r.me"
+  },
+  "bugs": {
+    "url": "https://github.com/zo0r/react-native-push-notification/issues"
+  },
+  "description": "React Native Local and Remote Notifications",
+  "homepage": "https://github.com/zo0r/react-native-push-notification#readme",
   "keywords": [
     "react-component",
     "react-native",
@@ -16,21 +46,23 @@
     "apns",
     "gcm"
   ],
-  "bugs": {
-    "url": "https://github.com/zo0r/react-native-push-notification/issues"
+  "license": "MIT",
+  "main": "index",
+  "name": "react-native-push-notification",
+  "peerDependencies": {
+    "react-native": ">=0.33"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com:zo0r/react-native-push-notification.git"
-  },
-  "peerDependencies": {
-    "react-native": ">=0.33"
+    "url": "git+ssh://git@github.com/zo0r/react-native-push-notification.git"
   },
   "rnpm": {
     "android": {
       "packageInstance": "new ReactNativePushNotificationPackage()"
     }
   },
-  "author": "zo0r <http://zo0r.me>",
-  "license": "MIT"
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "3.0.2"
 }
